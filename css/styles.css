@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.pantalla {
+    width: 100vw;
+    height: 1000vh;
+}
+
+.bloque {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.coin {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+}
