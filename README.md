@@ -6,5 +6,6 @@ This is a simple challenge to increase my skills in js and for future applicatio
 
 ## This project contains:
 
+-   Handle Canvas
 -   Random positioning in html with js
 -   Custom style with js
