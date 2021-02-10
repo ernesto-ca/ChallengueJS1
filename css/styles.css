@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*HIDE THE SCROLLS*/
     overflow-y: hidden;
     overflow-x: hidden;
+}
+
+body {
+    background-image: url('../img/floor.png');
+    background-size: cover;
 }
 
 .canvas {
@@ -12,15 +18,26 @@
     position: relative;
 }
 .coin {
-    width: 50px;
+    width: 40px;
     height: 50px;
-    background-color: yellow;
+    background-image: url('../img/coin.png');
     border-radius: 50%;
     position: absolute;
 }
 .player {
     width: 100px;
-    height: 100px;
-    background-color: blue;
+    height: 120px;
+    background-image: url('../img/spriteL.png');
+    background-repeat: no-repeat;
     position: absolute;
+}
+
+.gameover {
+    width: 25%;
+    height: 50%;
+    background-image: url('../img/passed.png');
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+    left: 39%;
 }
