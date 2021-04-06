@@ -12,4 +12,4 @@ is a simple 'game' in Js.
 -   Custom style with js
 -   Key event in js
 
-#### If you want to use the sprites or any of the images in this project you can use it for personal projects only
+#### If you want to use the sprites or any of the images in this project, you can use it for personal projects only
